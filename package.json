@@ -1,0 +1,34 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "A node.js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwyfed/anydoor.git"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "bianwangyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwyfed/anydoor/issues"
+  },
+  "homepage": "https://github.com/bwyfed/anydoor#readme",
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.6.0",
+    "pre-commit": "^1.2.2"
+  }
+}
