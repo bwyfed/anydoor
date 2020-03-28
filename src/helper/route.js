@@ -5,7 +5,7 @@ const promisify = require('util').promisify;
 const stat = promisify(fs.stat);
 const readdir = promisify(fs.readdir);
 const config = require('../config/defaultConfig');
-
+// 使用模板引擎
 const tplPath = path.join(__dirname, '../template/dir.tpl');
 const source = fs.readFileSync(tplPath, 'utf-8');
 const template = Handlebars.compile(source);
