@@ -13,7 +13,11 @@ indent_size = 2
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
-
+# for all js files
+[*.js]
+quote_type = single
+[*.{html, tpl, less, css, json}]
+quote_type = double
 # 4 space indentation
 [*.json]
 indent_size = 4
