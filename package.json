@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "chalk": "^2.4.1",
-    "handlebars": "^4.0.12"
+    "handlebars": "^4.3.0"
   }
 }
