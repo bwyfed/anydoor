@@ -1,6 +1,5 @@
 {
-    "window.openFoldersInNewWindow": "on",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     "editor.formatOnSave": true,
-    "workbench.colorTheme": "Default Light+"
+    "workbench.colorTheme": "Default Light+",
+    "editor.defaultFormatter": "EditorConfig.EditorConfig"
 }
